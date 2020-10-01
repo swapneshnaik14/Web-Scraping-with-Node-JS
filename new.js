@@ -9,9 +9,7 @@ request(url, function(err, resp, body){
   $ = cheerio.load(body);
   links = $('a');
   $(links).each(function(i, link){
-    var href = $(link).attr('href');
-    
+    var href = $(link).attr('href');   
     array.push(href);
-    console.log(array);
   });
 });
