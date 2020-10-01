@@ -2,7 +2,6 @@ var request = require('request');
 var cheerio = require('cheerio');
 
 var url = 'https://www.olx.in/vehicles/q-ertiga/';
-
 var array = [];
 
 request(url, function(err, resp, body){
