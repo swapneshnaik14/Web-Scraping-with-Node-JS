@@ -1,6 +1,6 @@
 var request = require('request');
 var cheerio = require('cheerio');
-
+//add url to extract the content
 var url = 'https://www.olx.in/vehicles/q-ertiga/';
 var array = [];
 
